@@ -31,7 +31,7 @@
     <header class="container mx-auto ">
         <nav class="flex justify-between items-center py-4">
             <img src="images/logo2.png" alt="">
-            <ul class="flex gap-5 text-base text-gray-500">
+            <ul class="flex gap-5 text-base text-gray-500 hidden lg:flex">
                 <li>Home</li>
                 <li>Services <i class="fa-solid fa-angle-right"></i></li>
                 <li>Cases <i class="fa-solid fa-angle-right"></i></li>
@@ -41,11 +41,11 @@
             <button class="bg-yellow-700 rounded-lg text-white py-4 px-5 text-lg font-semibold">Free Consultation</button>
         </nav>
         
-        <div class=" bg-no-repeat bg-cover  flex items-center justify-center  rounded-lg  h-[550px]" style="background-image:linear-gradient(180deg, #111 0%, rgba(17, 17, 17, 0.00) 100%), url(images/banner.png);">
+        <div class=" bg-no-repeat bg-cover  flex items-center justify-center  rounded-lg py-10 lg:py-0  lg:h-[550px]" style="background-image:linear-gradient(180deg, #111 0%, rgba(17, 17, 17, 0.00) 100%), url(images/banner.png);">
 
-            <div class="w-2/3 space-y-4 text-center">
-                <h1 class="text-7xl font-extrabold text-white garamond leading-[80px]">We Provide Effective <br> Legal Solutions</h1>
-                <p class="text-base text-gray-300 w-3/4 mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            <div class="lg:w-2/3 space-y-4 text-center">
+                <h1 class="text-3xl lg:text-7xl font-extrabold text-white garamond lg:leading-[80px]">We Provide Effective <br> Legal Solutions</h1>
+                <p class="text-base text-gray-300 px-4 lg:px-0 lg:w-3/4 mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                 <!-- <form>
                       <div class="join">
                         <input type="text" placeholder="username@site.com" class="input input-bordered join-item" /> 
@@ -53,8 +53,8 @@
                       </div>
                     </fieldset>
                   </form> -->
-                  <form>
-                    <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+                  <form class="flex gap-4 lg:gap-8 justify-center ">
+                    <input type="text" placeholder="Type here" class="input input-bordered  w-[50%]" />
                     <button class="btn bg-yellow-700 hover:bg-transparent px-8 text-white">Search</button>
                   </form>
             </div>
@@ -65,11 +65,11 @@
 
     <main class="container mx-auto">
         <!-- The Legal Practice Area -->
-        <section >
-            <h1>The Legal Practice Area</h1>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        <section class="my-24">
+            <h1 class="text-5xl font-bold text-center">The Legal Practice Area</h1>
+            <p class="text-gray-500 lg:w-1/2 mx-auto text-center my-6">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
 
-            <div class="grid grid-cols-1 ms:grid-cols-2 lg:grid-cols-3">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10">
                 <div class=" text-center space-y-4 border-b p-6">
                     <img class="mx-auto" src="images/business.png" alt="">
                     <h1 class="text-3xl">Business Law</h1>
